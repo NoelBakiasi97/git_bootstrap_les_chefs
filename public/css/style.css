@@ -15495,17 +15495,20 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Brands";
 }
 
-body {
+h1, h2, h3 {
   font-family: "Courgette", cursive;
+}
+
+h6 {
+  font-size: 300%;
 }
 
 header {
   background: url("../../public/images/banner1.jpg");
-  background-size: 203vh 83vh;
+  background-size: 203vh 80vh;
 }
 header .sisi {
   background-color: rgba(0, 0, 0, 0.7);
-  height: 80vh;
 }
 
 ul img {
@@ -15527,9 +15530,17 @@ ul a:hover {
   padding: 10px;
 }
 
-.dents {
-  background: url("../../public/images/bottom_decoration_img.png");
-  color: black;
+.carousel-sisi {
+  height: 50vh;
+}
+
+.carou-sisi h2 {
+  font-size: 300%;
+}
+
+.dents .dents-mini {
+  background-image: url("../../public/images/bottom_decoration_img.png");
+  height: 10px;
 }
 
 .sec-1 {
@@ -15577,10 +15588,16 @@ ul a:hover {
   background: url("../../public/images/book_table_bg.jpg");
   border-radius: 10px;
 }
-.div-form input {
+.div-form select, .div-form input {
+  width: 24vh;
+  height: 5vh;
+  border: white 1px solid;
   border-radius: 20px;
-  padding: 10px;
-  margin: 10px;
+  background-color: white;
+  margin-top: 2%;
+}
+.div-form ::placeholder {
+  color: black;
 }
 .div-form button {
   border-radius: 25px;
@@ -15621,6 +15638,37 @@ ul a:hover {
 .div-test {
   border: 1px white solid;
   border-radius: 10px;
+}
+
+.sec4 {
+  background-image: url("../../public/images/main_bg.jpg");
+}
+
+.div-contact {
+  border-radius: 20px;
+}
+
+.hr {
+  border-top: 1px solid white;
+}
+
+.dents2 .dents-mini2 {
+  background-image: url("../../public/images/footer_bottom_decoration_img.png");
+  height: 10px;
+}
+
+footer {
+  background: url("../../public/images/footer_background.jpg");
+  height: 40vh;
+}
+
+.btn-footer {
+  border: solid 1px white;
+  border-radius: 20px;
+}
+
+.sec5 {
+  height: 8vh;
 }
 
 /*# sourceMappingURL=style.css.map */

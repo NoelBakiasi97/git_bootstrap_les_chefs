@@ -27,21 +27,20 @@
                     <li><a class="text-white" href="">CONTACT US</a></li>
                 </ul>
             </nav>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-sisi" data-ride="carousel">
                 <ol class="carousel-indicators m-0">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner text-center p-5 mt-5">
-                    <div class="carousel-item active">
-                        <h3 class="text-white">
-                            Whatever your <span class="h2">OCCASION</span>, <br> <span
-                                class="h3 text-danger">TASTE</span>
-                            <span class="h2">makes</span> it one <br> to <span class="h2">remember</span> !
-                        </h3>
-                        <button class="btn bg-white mx-2">Purchase theme</button>
-                        <button class="btn bg-danger text-white mx-2">Learn more</button>
+                    <div class="carousel-item active carou-sisi">
+                        <h2 class="text-white">
+                            Whatever your <span class="h1">OCCASION</span>, <br> <span class="text-danger">TASTE</span>
+                            <span class="h1">makes</span> it one <br> to <span class="h1">remember</span> !
+                            </h3>
+                            <button class="btn bg-white mx-2">Purchase theme</button>
+                            <button class="btn bg-danger text-white mx-2">Learn more</button>
                     </div>
                     <div class="carousel-item">
                         <h3 class="text-white">
@@ -71,7 +70,9 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            <div class="dents"></div>
+            <div class="dents">
+                <div class="dents-mini"></div>
+            </div>
         </div>
 
     </header>
@@ -320,22 +321,34 @@
             <div class="d-flex justify-content-center">
                 <div class="div-form w-50">
                     <h4 class="text-white my-4">For any query please call us at 0032489636363</h4>
-                    <form class="mb-5" action="ma-page-de-traitement" method="post">
+                    <form class="mb-5 customSelect" action="ma-page-de-traitement" method="post">
                         <div>
                             <input type="text" id="name" name="user_name" placeholder="Enter full name">
                             <input type="text" id="name" name="user_name" placeholder="Enter ID">
                         </div>
                         <div>
                             <input type="text" id="name" name="user_name" placeholder="Phone number">
-                            <input type="text" id="mail" name="user_mail" placeholder="No of persons">
+                            <select name="btn-select" id="select">
+                                <option>No of persons</option>
+                                <option>No of persons</option>
+                                <option>No of persons</option>
+                            </select>
                         </div>
                         <div>
                             <input type="text" id="name" name="user_name" placeholder="Date">
                             <input type="text" id="mail" name="user_mail" placeholder="Time">
                         </div>
                         <div>
-                            <input type="text" id="name" name="user_name" placeholder="Occasion">
-                            <input type="text" id="mail" name="user_mail" placeholder="Cuisine">
+                            <select name="btn-select" id="select">
+                                <option>Occasion</option>
+                                <option>Occasion</option>
+                                <option>Occasion</option>
+                            </select>
+                            <select name="btn-select" id="select">
+                                <option>Cuisine</option>
+                                <option>Cuisine</option>
+                                <option>Cuisine</option>
+                            </select>
                         </div>
                     </form>
                     <button type="button" class="btn btn-danger btn-md p-3 mb-5">BOOK NOW</button>
@@ -408,6 +421,85 @@
             </div>
         </div>
     </section>
+    <section class="sec4 d-flex flex-column align-items-center text-center">
+        <div>
+            <h2 class="pt-5"><span class="text-danger h1">Our</span> contact</h2>
+            <img src="./public/images/decoration_line.png" alt="">
+        </div>
+        <div class="card mt-5 mb-5 bg-danger text-white div-contact" style="width: 40rem;">
+            <div class="pt-4 div-pos">
+                <i class="fas fa-map-marker-alt fa-3x pb-3"></i>
+                <h4>Lorem aight si si on raconte des bails glk sale enroule tu connais</h4>
+            </div>
+            <hr width="90%" class="ml-4 hr">
+            <div class="mt-4 div-pos">
+                <i class="fas fa-phone-alt fa-3x pb-4"></i>
+                <h4>0032489636363</h4>
+            </div>
+            <hr width="90%" class="ml-4 hr">
+            <div class="mt-4">
+                <i class="fas fa-envelope fa-3x pb-2"></i>
+                <h4>resto@resto.com</h4>
+            </div>
+        </div>
+
+    </section>
+    <footer class="text-white">
+        <div class="dents2">
+            <div class="dents-mini2"></div>
+        </div>
+        <div>
+            <div class="row mt-5 justify-content-center no-gutters">
+                <div class="col-3 offset-1">
+                    <h6 class="mb-3">About us</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur provident excepturi distinctio,
+                        ut
+                        enim reiciendis quaerat deserunt nemo accusantium explicabo quasi qui veniam consequatur ullam
+                        vel
+                        incidunt modi. Vero, quam?</p>
+                    <div class="row">
+                        <a href=""><i class="fab fa-facebook-f fa-2x text-white px-2"></i></a>
+                        <a href=""><i class="fab fa-google-plus-g fa-2x text-white px-2"></i></a>
+                        <a href=""><i class="fab fa-pinterest fa-2x text-white px-2"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in fa-2x text-white px-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-3 offset-1 pl-5">
+                    <h6 class="mb-3">Instagram</h6>
+                    <div class="row pl-2">
+                        <img class="px-1" src="./public/images/instragram_gallery_img1.jpg" alt="">
+                        <img class="px-1" src="./public/images/instragram_gallery_img2.jpg" alt="">
+                        <img class="px-1" src="./public/images/instragram_gallery_img1.jpg" alt="">
+                        <img class="px-1" src="./public/images/instragram_gallery_img2.jpg" alt="">
+                    </div>
+                    <div class="row pl-2">
+                        <img class="px-1 pt-2" src="./public/images/instragram_gallery_img1.jpg" alt="">
+                        <img class="px-1 pt-2" src="./public/images/instragram_gallery_img2.jpg" alt="">
+                        <img class="px-1 pt-2" src="./public/images/instragram_gallery_img1.jpg" alt="">
+                        <img class="px-1 pt-2" src="./public/images/instragram_gallery_img2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-3 offset-1">
+                    <h6 class="mb-3">Popular tags</h6>
+                    <div>
+                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Restaurant</button>
+                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Responsive Design</button>
+                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Hotel</button>
+                    </div>
+                    <div>
+                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Blog section</button>
+                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">SEO</button>
+                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Cuisine</button>
+                    </div>
+                    <div>
+                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Graphic</button>
+                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Food</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="sec5 bg-danger"></section>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

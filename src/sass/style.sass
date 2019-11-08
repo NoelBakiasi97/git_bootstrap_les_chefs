@@ -5,15 +5,17 @@ $fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss"
 
-body
+h1, h2, h3
     font-family: 'Courgette', cursive
+h6
+    font-size: 300%
 
 header
     background: url("../../public/images/banner1.jpg")
-    background-size: 203vh 83vh
+    background-size: 203vh 80vh
     .sisi
         background-color: rgba(0, 0, 0, 0.7)
-        height: 80vh
+        
 
 
 ul
@@ -32,10 +34,18 @@ ul
         border-radius: 20px
         margin-top: 3%
         padding: 10px
+.carousel-sisi
+    height: 50vh
 
+.carou-sisi
+    h2
+        font-size: 300%
 .dents
-    background: url("../../public/images/bottom_decoration_img.png")
-    color: black
+    .dents-mini
+        background-image: url("../../public/images/bottom_decoration_img.png")
+        height: 10px
+        
+        
         
 
 
@@ -79,10 +89,17 @@ ul
 .div-form
     background: url("../../public/images/book_table_bg.jpg")
     border-radius: 10px
-    input
+    
+    select,input
+        width: 24vh
+        height: 5vh
+        border: white 1px solid
         border-radius: 20px
-        padding: 10px
-        margin: 10px
+        background-color: white
+        margin-top: 2%
+    ::placeholder
+        color: black    
+ 
     button
         border-radius: 25px
 
@@ -116,4 +133,27 @@ ul
 .div-test
     border: 1px white solid
     border-radius: 10px
-    
+
+.sec4
+    background-image: url("../../public/images/main_bg.jpg")
+
+.div-contact
+    border-radius: 20px
+
+.hr
+    border-top: 1px solid white
+
+.dents2
+    .dents-mini2
+        background-image: url("../../public/images/footer_bottom_decoration_img.png")
+        height: 10px
+
+footer
+    background: url("../../public/images/footer_background.jpg")
+    height: 40vh
+.btn-footer
+    border: solid 1px white
+    border-radius: 20px
+
+.sec5
+    height: 8vh
