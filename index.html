@@ -14,7 +14,7 @@
 
     <header class="">
         <div class="sisi">
-            <nav class="ml-5">
+            <nav>
                 <ul class="list-unstyled row justify-content-center align-items-center m-0">
                     <li><a class="text-white" href="">HOME</a></li>
                     <li><a class="text-white" href="">ABOUT US</a></li>
@@ -37,26 +37,24 @@
                     <div class="carousel-item active carou-sisi">
                         <h2 class="text-white">
                             Whatever your <span class="h1">OCCASION</span>, <br> <span class="text-danger">TASTE</span>
-                            <span class="h1">makes</span> it one <br> to <span class="h1">remember</span> !
-                            </h3>
-                            <button class="btn bg-white mx-2">Purchase theme</button>
-                            <button class="btn bg-danger text-white mx-2">Learn more</button>
-                    </div>
-                    <div class="carousel-item">
-                        <h3 class="text-white">
-                            Whatever your <span class="h2">OCCASION</span>, <br> <span
-                                class="h3 text-danger">TASTE</span>
-                            <span class="h2">makes</span> it one <br> to <span class="h2">remember</span> !
-                        </h3>
+                            <span class="h1">makes</span> it one <br> to <span class="h1">remember!</span>
+                        </h2>
                         <button class="btn bg-white mx-2">Purchase theme</button>
                         <button class="btn bg-danger text-white mx-2">Learn more</button>
                     </div>
-                    <div class="carousel-item">
-                        <h3 class="text-white">
-                            Whatever your <span class="h2">OCCASION</span>, <br> <span
-                                class="h3 text-danger">TASTE</span>
-                            <span class="h2">makes</span> it one <br> to <span class="h2">remember</span> !
-                        </h3>
+                    <div class="carousel-item carou-sisi">
+                        <h2 class="text-white">
+                            Whatever your <span class="h1">OCCASION</span>, <br> <span class="text-danger">TASTE</span>
+                            <span class="h1">makes</span> it one <br> to <span class="h1">remember!</span>
+                        </h2>
+                        <button class="btn bg-white mx-2">Purchase theme</button>
+                        <button class="btn bg-danger text-white mx-2">Learn more</button>
+                    </div>
+                    <div class="carousel-item carou-sisi">
+                        <h2 class="text-white">
+                            Whatever your <span class="h1">OCCASION</span>, <br> <span class="text-danger">TASTE</span>
+                            <span class="h1">makes</span> it one <br> to <span class="h1">remember!</span>
+                        </h2>
                         <button class="btn bg-white mx-2">Purchase theme</button>
                         <button class="btn bg-danger text-white mx-2">Learn more</button>
                     </div>
@@ -79,14 +77,14 @@
     <section class="sec-1 d-flex justify-content-center text-center ">
         <div class="card mt-5 mb-5" style="width: 100rem;">
             <div class="div1-sec1 row">
-                <div class="col-3 text-left">
+                <div id="img-triangle" class="col-3 text-left">
                     <img src="./public/images/box-left-top.png" alt="">
                 </div>
                 <div class="col-6">
                     <h1 class="">
                         <span class="text-danger">Our</span> <span class="h2">story</span>
                     </h1>
-                    <img src="./public/images/decoration_line.png" alt="">
+                    <img id="deco" src="./public/images/decoration_line.png" alt="">
                     <br>
                     <br>
                     <p class="">
@@ -110,7 +108,7 @@
                         nesciunt quia illo quis et aut?
                     </p>
                 </div>
-                <div class="col-3 text-right">
+                <div id="img-triangle" class="col-3 text-right">
                     <img src="./public/images/box-right-top.png" alt="">
                 </div>
             </div>
@@ -119,9 +117,9 @@
                 <h1 class="">
                     <span class="text-danger">Our</span> <span class="h2">menu list</span>
                 </h1>
-                <img src="./public/images/decoration_line.png" alt="">
+                <img id="deco" src="./public/images/decoration_line.png" alt="">
                 <div class="row mt-5">
-                    <div class="col-3 ">
+                    <div id="col-chiant" class="col-2">
                         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
                             aria-orientation="vertical">
                             <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
@@ -144,12 +142,42 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-9 div-fullimage">
+                    <div class="col-10 div-fullimage">
                         <div class="tab-content row" id="v-pills-tabContent">
-                            <div class="tab-pane fade show active col-6" id="v-pills-home" role="tabpanel"
+                            <div class="tab-pane fade show active col-xl-6" id="v-pills-home" role="tabpanel"
                                 aria-labelledby="v-pills-home-tab">
-                                <div class="row oklm">
-                                    <img class="col-2" src="./public/images/menu_image_1.jpg" alt="">
+                                <div class="row oklm mb-1">
+                                    <img class="col-2 mb-1" src="./public/images/menu_image_1.jpg" alt="">
+                                    <div class="col-6 text-left mx-3">
+                                        <p><b>Deer steak with potatoes</b><br>Welcome to risotto restaurant website.
+                                            Here we share recipes</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <p class="text-danger mt-4 p2">25$</p>
+                                    </div>
+                                </div>
+                                <div class="row oklm mb-1">
+                                    <img class="col-2 mb-1" src="./public/images/menu_image_1.jpg" alt="">
+                                    <div class="col-6 text-left mx-3">
+                                        <p><b>Deer steak with potatoes</b><br>Welcome to risotto restaurant website.
+                                            Here we share recipes</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <p class="text-danger mt-4 p2">25$</p>
+                                    </div>
+                                </div>
+                                <div class="row oklm mb-1">
+                                    <img class="col-2 mb-1" src="./public/images/menu_image_1.jpg" alt="">
+                                    <div class="col-6 text-left mx-3">
+                                        <p><b>Deer steak with potatoes</b><br>Welcome to risotto restaurant website.
+                                            Here we share recipes</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <p class="text-danger mt-4 p2">25$</p>
+                                    </div>
+                                </div>
+                                <div class="row oklm mb-1">
+                                    <img class="col-2 mb-1" src="./public/images/menu_image_1.jpg" alt="">
                                     <div class="col-6 text-left mx-3">
                                         <p><b>Deer steak with potatoes</b><br>Welcome to risotto restaurant website.
                                             Here we share recipes</p>
@@ -159,37 +187,7 @@
                                     </div>
                                 </div>
                                 <div class="row oklm">
-                                    <img class="col-2" src="./public/images/menu_image_1.jpg" alt="">
-                                    <div class="col-6 text-left mx-3">
-                                        <p><b>Deer steak with potatoes</b><br>Welcome to risotto restaurant website.
-                                            Here we share recipes</p>
-                                    </div>
-                                    <div class="col-3">
-                                        <p class="text-danger mt-4 p2">25$</p>
-                                    </div>
-                                </div>
-                                <div class="row oklm">
-                                    <img class="col-2" src="./public/images/menu_image_1.jpg" alt="">
-                                    <div class="col-6 text-left mx-3">
-                                        <p><b>Deer steak with potatoes</b><br>Welcome to risotto restaurant website.
-                                            Here we share recipes</p>
-                                    </div>
-                                    <div class="col-3">
-                                        <p class="text-danger mt-4 p2">25$</p>
-                                    </div>
-                                </div>
-                                <div class="row oklm">
-                                    <img class="col-2" src="./public/images/menu_image_1.jpg" alt="">
-                                    <div class="col-6 text-left mx-3">
-                                        <p><b>Deer steak with potatoes</b><br>Welcome to risotto restaurant website.
-                                            Here we share recipes</p>
-                                    </div>
-                                    <div class="col-3">
-                                        <p class="text-danger mt-4 p2">25$</p>
-                                    </div>
-                                </div>
-                                <div class="row oklm">
-                                    <img class="col-2" src="./public/images/menu_image_1.jpg" alt="">
+                                    <img class="col-2 mb-1" src="./public/images/menu_image_1.jpg" alt="">
                                     <div class="col-6 text-left mx-3">
                                         <p><b>Deer steak with potatoes</b><br>Welcome to risotto restaurant website.
                                             Here we share recipes</p>
@@ -199,56 +197,56 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade show active col-6" id="v-pills-home" role="tabpanel"
+                            <div class="tab-pane fade show active col-xl-6" id="v-pills-home" role="tabpanel"
                                 aria-labelledby="v-pills-home-tab">
-                                <div class="row oklm">
-                                    <img class="col-2" src="./public/images/menu_image_1.jpg" alt="">
+                                <div class="row oklm mb-1">
+                                    <img class="col-2 mb-1" src="./public/images/menu_image_1.jpg" alt="">
                                     <div class="col-6 text-left mx-3">
                                         <p><b>Deer steak with potatoes</b><br>Welcome to risotto restaurant website.
                                             Here we share recipes</p>
                                     </div>
                                     <div class="col-3">
-                                        <p class="text-danger mt-4 p2">25$</p>
+                                        <p class="text-danger mt-4 p2">35$</p>
                                     </div>
                                 </div>
-                                <div class="row oklm">
-                                    <img class="col-2" src="./public/images/menu_image_1.jpg" alt="">
+                                <div class="row oklm mb-1">
+                                    <img class="col-2 mb-1" src="./public/images/menu_image_1.jpg" alt="">
                                     <div class="col-6 text-left mx-3">
                                         <p><b>Deer steak with potatoes</b><br>Welcome to risotto restaurant website.
                                             Here we share recipes</p>
                                     </div>
                                     <div class="col-3">
-                                        <p class="text-danger mt-4 p2">25$</p>
+                                        <p class="text-danger mt-4 p2">35$</p>
                                     </div>
                                 </div>
-                                <div class="row oklm">
-                                    <img class="col-2" src="./public/images/menu_image_1.jpg" alt="">
+                                <div class="row oklm mb-1">
+                                    <img class="col-2 mb-1" src="./public/images/menu_image_1.jpg" alt="">
                                     <div class="col-6 text-left mx-3">
                                         <p><b>Deer steak with potatoes</b><br>Welcome to risotto restaurant website.
                                             Here we share recipes</p>
                                     </div>
                                     <div class="col-3">
-                                        <p class="text-danger mt-4 p2">25$</p>
+                                        <p class="text-danger mt-4 p2">35$</p>
                                     </div>
                                 </div>
-                                <div class="row oklm">
-                                    <img class="col-2" src="./public/images/menu_image_1.jpg" alt="">
+                                <div class="row oklm mb-1">
+                                    <img class="col-2 mb-1" src="./public/images/menu_image_1.jpg" alt="">
                                     <div class="col-6 text-left mx-3">
                                         <p><b>Deer steak with potatoes</b><br>Welcome to risotto restaurant website.
                                             Here we share recipes</p>
                                     </div>
                                     <div class="col-3">
-                                        <p class="text-danger mt-4 p2">25$</p>
+                                        <p class="text-danger mt-4 p2">35$</p>
                                     </div>
                                 </div>
-                                <div class="row oklm">
-                                    <img class="col-2" src="./public/images/menu_image_1.jpg" alt="">
+                                <div class="row oklm mb-1">
+                                    <img class="col-2 mb-1" src="./public/images/menu_image_1.jpg" alt="">
                                     <div class="col-6 text-left mx-3">
                                         <p><b>Deer steak with potatoes</b><br>Welcome to risotto restaurant website.
                                             Here we share recipes</p>
                                     </div>
                                     <div class="col-3">
-                                        <p class="text-danger mt-4 p2">25$</p>
+                                        <p class="text-danger mt-4 p2">35$</p>
                                     </div>
                                 </div>
                             </div>
@@ -264,13 +262,13 @@
                 </div>
             </div>
             <div class="row mt-3">
-                <div class="col-3 text-left">
+                <div id="img-triangle" class="col-3 text-left">
                     <img src="./public/images/box-bottom-left.png" alt="">
                 </div>
                 <div class="col-6 mt-3">
-                    <img src="./public/images/decoration_line.png" alt="">
+                    <img id="deco" src="./public/images/decoration_line.png" alt="">
                 </div>
-                <div class="col-3 text-right">
+                <div id="img-triangle" class="col-3 text-right">
                     <img src="./public/images/box-bottom_right.png" alt="">
                 </div>
             </div>
@@ -280,22 +278,22 @@
     <section class="chefs text-center">
         <div class="text-center">
             <h2 class="text-white pt-5"><span class="text-danger h1">Meet</span> our chefs</h2>
-            <img src="./public/images/decoration_line.png" alt="">
+            <img id="deco" src="./public/images/decoration_line.png" alt="">
         </div>
         <div class="mt-5 mx-5 row chefs-glk text-white">
-            <div class="col-3">
+            <div class="col-lg-3 col-md-6">
                 <img src="./public/images/chef1.png" alt="">
                 <p>Lorem Ipsum</p>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-6">
                 <img src="./public/images/chef2.png" alt="">
                 <p>Lorem Ipsum</p>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-6">
                 <img src="./public/images/chef3.png" alt="">
                 <p>Lorem Ipsum</p>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-6">
                 <img src="./public/images/chef4.png" alt="">
                 <p>Lorem Ipsum</p>
             </div>
@@ -305,16 +303,16 @@
     <section class="sec-2 d-flex justify-content-center text-center ">
         <div class="card mt-5 mb-5" style="width: 100rem;">
             <div class="row">
-                <div class="col-3 text-left">
+                <div id="img-triangle" class="col-3 text-left">
                     <img src="./public/images/box-left-top-grey.png" alt="">
                 </div>
                 <div class="col-6 mt-3">
                     <h1 class="">
                         <span class="text-danger">Book</span> <span class="h2">your table</span>
                     </h1>
-                    <img src="./public/images/decoration_line.png" alt="">
+                    <img id="deco" src="./public/images/decoration_line.png" alt="">
                 </div>
-                <div class="col-3 text-right">
+                <div id="img-triangle" class="col-3 text-right">
                     <img src="./public/images/box-right-top-grey.png" alt="">
                 </div>
             </div>
@@ -355,8 +353,8 @@
                 </div>
             </div>
             <div class="mt-5">
-                <h1 class="text-danger">Our <span class="h2">blog</span></h1>
-                <img src="./public/images/decoration_line.png" alt="">
+                <h1 class="text-danger">Our <span class="h2 text-dark">blog</span></h1>
+                <img id="deco" src="./public/images/decoration_line.png" alt="">
             </div>
             <div class="row mt-5 div-2img">
                 <div class="col-6">
@@ -375,13 +373,13 @@
                 </div>
             </div>
             <div class="row mt-5 know-more">
-                <div class="col-3 text-left">
+                <div id="img-triangle" class="col-3 text-left">
                     <img src="./public/images/box-bottom-left-grey.png" alt="">
                 </div>
                 <div class="col-6 mt-3">
                     <button type="button" class="btn btn-danger btn-md p-3 mb-5">KNOW MORE</button>
                 </div>
-                <div class="col-3 text-right">
+                <div id="img-triangle" class="col-3 text-right">
                     <img src="./public/images/box-bottom_right-grey.png" alt="">
                 </div>
             </div>
@@ -390,12 +388,12 @@
     <section class="text-center sec3 pb-5">
         <div class="pt-3">
             <h2 class="text-white"><span class="h1 text-danger">Client</span> testimonials</h2>
-            <img src="./public/images/decoration_line.png" alt="">
+            <img id="deco" src="./public/images/decoration_line.png" alt="">
         </div>
         <div class="row no-gutters div-femme mt-5 justify-content-center">
-            <div class="col-5 row">
+            <div class="col-lg-5 col-md-8 row">
                 <div class="col-4">
-                    <img src="./public/images/testimonial1.jpg" alt="">
+                    <img src="./public/images/testimonial1.jpg" alt="" width="80%">
                 </div>
                 <div class="col-8 text-white div-test text-left pt-4">
                     <h5>Lorem Ipsum</h5>
@@ -406,7 +404,8 @@
                         nulla reprehenderit.</p>
                 </div>
             </div>
-            <div class="col-5 offset-1 row">
+            ...........
+            <div class="col-lg-5 col-md-8 row">
                 <div class="col-8 text-white div-test text-left pt-4">
                     <h5>Lorem Ipsum</h5>
                     <p class="text-danger">Manager</p>
@@ -416,7 +415,7 @@
                         nulla reprehenderit.</p>
                 </div>
                 <div class="col-4">
-                    <img src="./public/images/testimonial1.jpg" alt="">
+                    <img src="./public/images/testimonial1.jpg" alt="" width="80%">
                 </div>
             </div>
         </div>
@@ -424,20 +423,20 @@
     <section class="sec4 d-flex flex-column align-items-center text-center">
         <div>
             <h2 class="pt-5"><span class="text-danger h1">Our</span> contact</h2>
-            <img src="./public/images/decoration_line.png" alt="">
+            <img id="deco" src="./public/images/decoration_line.png" alt="">
         </div>
         <div class="card mt-5 mb-5 bg-danger text-white div-contact" style="width: 40rem;">
-            <div class="pt-4 div-pos">
+            <div id="media-contact" class="pt-4 div-pos">
                 <i class="fas fa-map-marker-alt fa-3x pb-3"></i>
                 <h4>Lorem aight si si on raconte des bails glk sale enroule tu connais</h4>
             </div>
             <hr width="90%" class="ml-4 hr">
-            <div class="mt-4 div-pos">
+            <div id="media-contact" class="mt-4 div-pos">
                 <i class="fas fa-phone-alt fa-3x pb-4"></i>
                 <h4>0032489636363</h4>
             </div>
             <hr width="90%" class="ml-4 hr">
-            <div class="mt-4">
+            <div id="media-contact" class="mt-4">
                 <i class="fas fa-envelope fa-3x pb-2"></i>
                 <h4>resto@resto.com</h4>
             </div>
@@ -448,53 +447,52 @@
         <div class="dents2">
             <div class="dents-mini2"></div>
         </div>
-        <div>
-            <div class="row mt-5 justify-content-center no-gutters">
-                <div class="col-3 offset-1">
-                    <h6 class="mb-3">About us</h6>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur provident excepturi distinctio,
-                        ut
-                        enim reiciendis quaerat deserunt nemo accusantium explicabo quasi qui veniam consequatur ullam
-                        vel
-                        incidunt modi. Vero, quam?</p>
-                    <div class="row">
-                        <a href=""><i class="fab fa-facebook-f fa-2x text-white px-2"></i></a>
-                        <a href=""><i class="fab fa-google-plus-g fa-2x text-white px-2"></i></a>
-                        <a href=""><i class="fab fa-pinterest fa-2x text-white px-2"></i></a>
-                        <a href=""><i class="fab fa-linkedin-in fa-2x text-white px-2"></i></a>
-                    </div>
+        <div id="long-footer" class="row px-5 mt-5 no-gutters">
+            <div id="media-footer" class="col-md-12 col-lg-4">
+                <h6 class="mb-4">About us</h6>
+                <p class="pb-2 klewis">Lorem dolor sit amet consectetur adipisicing elit. Tenetur provident excepturi
+                    distinctio,
+                    ut
+                    enim reiciendis quaerat deserunt nemo accusantium explicabo quasi qui veniam consequatur ullam
+                    vel
+                    incidunt modi. Vero, quam?</p>
+                <div class="row">
+                    <a href=""><i class="fab fa-facebook-f fa-2x text-white px-2"></i></a>
+                    <a href=""><i class="fab fa-google-plus-g fa-2x text-white px-2"></i></a>
+                    <a href=""><i class="fab fa-pinterest fa-2x text-white px-2"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in fa-2x text-white px-2"></i></a>
                 </div>
-                <div class="col-3 offset-1 pl-5">
-                    <h6 class="mb-3">Instagram</h6>
-                    <div class="row pl-2">
-                        <img class="px-1" src="./public/images/instragram_gallery_img1.jpg" alt="">
-                        <img class="px-1" src="./public/images/instragram_gallery_img2.jpg" alt="">
-                        <img class="px-1" src="./public/images/instragram_gallery_img1.jpg" alt="">
-                        <img class="px-1" src="./public/images/instragram_gallery_img2.jpg" alt="">
-                    </div>
-                    <div class="row pl-2">
-                        <img class="px-1 pt-2" src="./public/images/instragram_gallery_img1.jpg" alt="">
-                        <img class="px-1 pt-2" src="./public/images/instragram_gallery_img2.jpg" alt="">
-                        <img class="px-1 pt-2" src="./public/images/instragram_gallery_img1.jpg" alt="">
-                        <img class="px-1 pt-2" src="./public/images/instragram_gallery_img2.jpg" alt="">
-                    </div>
+            </div>
+            <div id="media-footer" class="col-md-12 col-lg-4 lulz">
+                <h6 class="mb-3">Instagram</h6>
+                <div class="row">
+                    <img class="px-1" src="./public/images/instragram_gallery_img1.jpg" alt="">
+                    <img class="px-1" src="./public/images/instragram_gallery_img2.jpg" alt="">
+                    <img class="px-1" src="./public/images/instragram_gallery_img1.jpg" alt="">
+                    <img id="kwed" class="px-1" src="./public/images/instragram_gallery_img2.jpg" alt="">
                 </div>
-                <div class="col-3 offset-1">
-                    <h6 class="mb-3">Popular tags</h6>
-                    <div>
-                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Restaurant</button>
-                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Responsive Design</button>
-                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Hotel</button>
-                    </div>
-                    <div>
-                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Blog section</button>
-                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">SEO</button>
-                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Cuisine</button>
-                    </div>
-                    <div>
-                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Graphic</button>
-                        <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Food</button>
-                    </div>
+                <div class="row">
+                    <img class="px-1 pt-2" src="./public/images/instragram_gallery_img1.jpg" alt="">
+                    <img class="px-1 pt-2" src="./public/images/instragram_gallery_img2.jpg" alt="">
+                    <img class="px-1 pt-2" src="./public/images/instragram_gallery_img1.jpg" alt="">
+                    <img id="kwed" class="px-1 pt-2" src="./public/images/instragram_gallery_img2.jpg" alt="">
+                </div>
+            </div>
+            <div id="media-footer" class="col-md-12 col-lg-4 lulz">
+                <h6 class="mb-3">Popular tags</h6>
+                <div>
+                    <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Restaurant</button>
+                    <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Responsive Design</button>
+                    <button id="kwed" class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Hotel</button>
+                </div>
+                <div>
+                    <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Blog section</button>
+                    <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">SEO</button>
+                    <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Cuisine</button>
+                </div>
+                <div>
+                    <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Graphic</button>
+                    <button class="p-2 text-white bg-danger my-1 mx-1 btn-footer">Food</button>
                 </div>
             </div>
         </div>
